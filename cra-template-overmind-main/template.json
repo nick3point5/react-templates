@@ -1,0 +1,29 @@
+{
+  "package": {
+    "dependencies": {
+      "overmind": "^26.0.0",
+      "overmind-react": "^27.0.0",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-scripts": "4.0.1",
+      "lodash": "^4.17.20",
+      "joi": "^17.3.0"
+    },
+    "devDependencies": {
+      "eslint": "^7.16.0",
+      "eslint-config-airbnb": "^18.2.1",
+      "eslint-plugin-import": "^2.22.1",
+      "eslint-plugin-jsx-a11y": "^6.4.1",
+      "eslint-plugin-react": "^7.21.5",
+      "eslint-plugin-react-hooks": "^4.2.0"
+    },
+    "scripts": {
+      "serve": "serve -s build",
+      "build-and-serve": "npm run build && npm run serve"
+    },
+    "eslintConfig": {
+      "extends": ["react-app", "plugin:jsx-a11y/recommended"],
+      "plugins": ["jsx-a11y"]
+    }
+  }
+}

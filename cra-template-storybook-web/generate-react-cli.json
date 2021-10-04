@@ -1,0 +1,32 @@
+{
+  "usesTypeScript": false,
+  "usesCssModule": true,
+  "cssPreprocessor": "css",
+  "testLibrary": "None",
+  "component": {
+    "default": {
+			"customTemplates": {
+				"component": "templates/component/default/TemplateName.js",
+				"story":  "templates/component/default/TemplateName.stories.js",
+				"style": "templates/component/default/TemplateName.css"
+			},
+      "path": "src/components",
+      "withStyle": true,
+      "withStory": true,
+      "withTest": false,
+      "withLazy": false
+    },
+		"page": {
+			"customTemplates": {
+				"component": "templates/page/default/TemplateName.js",
+				"story":  "templates/page/default/TemplateName.stories.js",
+				"style": "templates/page/default/TemplateName.css"
+			},
+			"path": "src/pages",
+			"withStyle": true,
+			"withStory": true,
+			"withTest": false,
+			"withLazy": false
+		}
+  }
+}
